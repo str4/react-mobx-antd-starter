@@ -4,6 +4,8 @@ import { Layout, Menu } from "antd";
 import { Router, NavLink } from "react-router-dom";
 import makeMainRoutes from "./routes";
 
+import TitleAnnouncer from "./components/TitleAnnouncer";
+
 import history from "./utils/history";
 
 const App = () => {
@@ -32,8 +34,8 @@ const App = () => {
             </Menu>
           </Sider>
           <Layout style={{ padding: "0 24px 24px" }}>
-            <div style={{ margin: "20px" }}>
-              <h2>Page title</h2>
+            <div style={{ margin: "20px 0 20px 30px" }}>
+              <TitleAnnouncer />
             </div>
             <Content
               className="site-layout-background"

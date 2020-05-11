@@ -8,9 +8,12 @@
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.0",
     "history": "^4.10.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
     "moment": "^2.25.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
