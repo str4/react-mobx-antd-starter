@@ -1,3 +1,5 @@
+This is a boilerplate mainly for my own use with React, Mobx and Antd.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
