@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Layout } from "antd";
 import { Router  } from "react-router-dom";
 import makeMainRoutes from "./routes";

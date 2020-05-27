@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import "antd/dist/antd.css";
+import "./styles/antd.css";
+import "./styles/main.css"
 import "mobx-react-lite/batchingForReactDom";
 
 ReactDOM.render(<App />, document.getElementById("root"));
