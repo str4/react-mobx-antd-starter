@@ -1,24 +1,26 @@
 import React from "react";
 import { Layout } from "antd";
-import { Router  } from "react-router-dom";
+import { Router } from "react-router-dom";
 import makeMainRoutes from "./routes";
 
 import MainSider from "./components/MainSider";
+import MainHeader from "./components/MainHeader";
+import MainFooter from "./components/MainFooter";
 import TitleAnnouncer from "./components/TitleAnnouncer";
 
 import history from "./utils/history";
 
 const App = () => {
-  const { Header, Content, Footer } = Layout;
+  const { Content, Footer } = Layout;
 
   const routes = makeMainRoutes();
 
   return (
     <Router history={history}>
-      <Layout>
-        <Header className="header"></Header>
+      <Layout className="mainlayout">
+        <MainSider />
         <Layout>
-          <MainSider />
+          <MainHeader />
           <Layout style={{ padding: "0 24px 24px" }}>
             <div style={{ margin: "20px 0 20px 30px" }}>
               <TitleAnnouncer />
@@ -35,9 +37,7 @@ const App = () => {
             >
               {routes}
             </Content>
-            <Footer style={{ textAlign: "center" }}>
-              React, Mobx, Antd starter 2020
-            </Footer>
+            <MainFooter />
           </Layout>
         </Layout>
       </Layout>

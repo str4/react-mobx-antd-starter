@@ -7,9 +7,12 @@ const MainSider = (props) => {
   const { Sider } = Layout;
   return (
     <Sider width={200} className="site-layout-background">
+      <div className="logo">
+        <h3 className="logotext">Title</h3>
+      </div>
       <Menu
+        theme="dark"
         mode="inline"
-        style={{ height: "100%", borderRight: 0 }}
         selectedKeys={[location.pathname]}
       >
         <Menu.Item key="/">

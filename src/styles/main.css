@@ -1,3 +1,35 @@
 /* Use this file to extend default antd styles */
 
+.header {
+  background: #fafafa;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+  height: 64px;
+  padding-top: 20px;
+}
+
+.logotext {
+  color: #fafafa;
+  text-align: center;
+}
+
+.mainsider {
+}
+
+.mainfooter {
+  text-align: center;
+}
+
+.sidermenu {
+  height: 100%;
+  border-right: 0;
+}
+
+.mainlayout {
+  height: 100vh;
+}
+
+/* Antd overrides */
 
