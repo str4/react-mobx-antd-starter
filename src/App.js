@@ -18,9 +18,9 @@ const App = () => {
   return (
     <Router history={history}>
       <Layout className="mainlayout">
-        <MainSider />
+        <MainHeader />
         <Layout>
-          <MainHeader />
+          <MainSider />
           <Layout style={{ padding: "0 24px 24px" }}>
             <div style={{ margin: "20px 0 20px 30px" }}>
               <TitleAnnouncer />

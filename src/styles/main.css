@@ -1,21 +1,22 @@
 /* Use this file to extend default antd styles */
 
 .header {
-  background: #fafafa;
-  border-bottom: 1px solid lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px inset;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0;
 }
 
 .logo {
   height: 64px;
-  padding-top: 20px;
+  width: 200px;
 }
 
 .logotext {
-  color: #fafafa;
   text-align: center;
 }
 
 .mainsider {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .mainfooter {
@@ -32,4 +33,3 @@
 }
 
 /* Antd overrides */
-
